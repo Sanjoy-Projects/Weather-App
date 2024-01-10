@@ -17,7 +17,7 @@ function WeatherApp() {
          setWeatherInfo(result)
     }
     return (
-        <div className='TotalSection'>
+        <div>
             <Input updateInfo={updateInfo}/>
             <Info infoResult={weatherInfo}/>
             <Footer/>
