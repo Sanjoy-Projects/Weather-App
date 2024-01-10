@@ -17,12 +17,12 @@
         width: 100%;
     }
     .infoBox{
-        width: 70%;
+        width: 80%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .infoBoxSection{
-        height: 80vh;
+        height: 100vh;
     }
 }
