@@ -1,0 +1,68 @@
+
+.WeatherApp{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 20vh;
+    background-color: rgb(229, 251, 251);
+}
+.heading{
+    color: rgba(239, 122, 27, 0.918);
+    font-family: roboto;
+    border-bottom: 2px solid rgba(250, 110, 59, 0.482);
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.formSection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.textField{
+    width: 400px;
+    padding: 8px;
+    outline: none;
+    border: 1px solid black;
+    border: none;
+    border-radius: 4px 0px 0px 4px;
+    background-color: rgba(197, 197, 197, 0.403);
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    
+}
+.searchBtn{
+    padding: 8px;
+    width: 70px;
+    border: 1px solid black;
+    border: none;
+    background-color: rgb(179, 215, 230);
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+}
+
+@media(max-width:600px){
+   .formSection{
+    width: 100%;
+    padding: 0px 15px;
+   }
+   .form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   }
+   .textField{
+    width: 80%;
+   }
+   .WeatherApp{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   }
+   .heading{
+    margin-top: 10px;
+   }
+}

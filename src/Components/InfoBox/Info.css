@@ -1,0 +1,25 @@
+.infoBoxSection{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    align-items: center;
+    height: 70vh;
+    background-color: rgb(203, 255, 255);
+    color: rgb(172, 229, 255);
+}
+
+.weatherIcon{
+    margin-left: 10px;
+}
+
+@media(max-width:600px){
+    .infoBoxSection{
+        width: 100%;
+    }
+    .infoBox{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
